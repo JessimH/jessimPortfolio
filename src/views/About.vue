@@ -256,7 +256,7 @@ iframe{
        padding: 5px;
     }
     .banner ul li img{
-        max-height: 40px;
+        max-height: 50px;
     }
     .slider{
         display:flex;
