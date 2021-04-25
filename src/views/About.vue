@@ -57,9 +57,13 @@
         <h1>Mobile Skills 📱</h1>
         <div class="banner">
             <ul>
-              <li>
+                <li>
                   <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="ReactJs">
                   <p>React Native</p>
+                </li>
+                <li>
+                  <img src="http://blog.soat.fr/wp-content/uploads/2017/11/ionic-icon-300x300.png" alt="Ionic">
+                  <p>Ionic</p>
                 </li>
                 <li><img src="https://upload.wikimedia.org/wikipedia/en/9/96/App_Store_icon_for_Swift_Playgrounds.png" alt="Swift">
                   <p>Swift</p>
@@ -74,11 +78,18 @@
         </div>
       </article>
       <article class="devOps">
-        <h1>Other Skills</h1>
+        <h1>Other Programming Skills</h1>
         <div class="banner">
             <ul>
                 <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python3">
                   <p>Python</p>
+                </li>
+                <li><img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black_.png" alt="OpenCv">
+                  <p>OpenCv</p>
+                </li>
+                <li><img src="https://www.ambient-it.net/wp-content/uploads/2016/04/ml-logo.png" alt="Machine Learning">
+                  <p>Machine Learning</p>
+                  <p>(En cours d'apprentissage)</p>
                 </li>
                 <li><img src="https://sdtimes.com/wp-content/uploads/2018/08/logo-glyph.png" alt="Postman">
                   <p>Postman</p>
@@ -86,6 +97,10 @@
                 <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png" alt="Git">
                   <p>Git</p>
                 </li>
+            </ul>
+        </div>
+        <div class="banner">
+            <ul>
                 <li><img src="https://www.gstatic.com/devrel-devsite/prod/v3069b08f6c9d146fa6a9c7f184b2836998ab5f12cefec1342a7bf6dca024aa94/firebase/images/touchicon-180.png" alt="Firebase">
                   <p>Firebase</p>
                 </li>
@@ -127,10 +142,21 @@
                 <li>Patience</li>
                 <li>Résolution de problèmes</li>
                 <li>Créativité</li>
-                <li>Big O Notation</li>
             </ul>
         </div>
       </article>
+      <div class="slider">
+        <ul>
+          <li><img src="https://www.sololearn.com/Certificate/1162-21372319/jpg" alt=""></li>
+          <li><img src="https://udemy-certificate.s3.amazonaws.com/image/UC-41255f3a-30be-4983-9c5d-7048db2c5597.jpg?v=1608898452000" alt=""></li>
+          <li><img src="https://i.ibb.co/ncq1KTV/Capture-d-e-cran-2021-04-25-a-17-53-37.png" alt=""></li>
+          <li><img src="https://www.sololearn.com/Certificate/1097-21372319/jpg" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1157/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1158/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1073/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1159/landscape/png" alt=""></li>
+        </ul>
+      </div>
     </section>
     <Footer/>
   </div>
@@ -203,6 +229,15 @@ iframe{
   color: white;
 }
 
+.cv .Diplomes h1{
+  background-color:#1E31C9;
+  box-shadow: 11px 11px 0px 0px #2c3e50;
+  padding: 10px;
+  max-width: fit-content;
+  color: white;
+}
+
+
 .banner{
         display:flex;
         align-items: center;
@@ -222,6 +257,25 @@ iframe{
     }
     .banner ul li img{
         max-height: 40px;
+    }
+    .slider{
+        display:flex;
+        align-items: center;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .slider ul{
+        padding: 0;
+        display:flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    .slider li{
+       margin-bottom: 20px;
+       padding: 5px;
+    }
+    .slider ul li img{
+        height: 300px;
     }
   
 </style>

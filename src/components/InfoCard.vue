@@ -3,7 +3,9 @@
         <div class="card__profile">
             <img class="card__profileImage" src="https://media-exp1.licdn.com/dms/image/C4D03AQGKp9RWsjlFkw/profile-displayphoto-shrink_800_800/0/1617122696986?e=1625097600&v=beta&t=EH5bAvYc_VAZ7sLC5ytJ0tAbDY0Y2mNg4CyOBmEkgZg" alt="">
         </div>
-        <h1>>> Salut 👋, moi c'est <span>Jessim</span> <br> et je suis développeur! <br> >> Bienvenue sur mon site!</h1>
+        <h1>>> Salut 👋, moi c'est <span>Jessim</span> 
+        <br> et je suis développeur! 
+        <br> >> Bienvenue sur mon site!</h1>
     </div>
 </template>
 <script>
