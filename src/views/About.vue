@@ -81,26 +81,30 @@
         <h1>Other Programming Skills</h1>
         <div class="banner">
             <ul>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python3">
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python">
                   <p>Python</p>
                 </li>
                 <li><img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black_.png" alt="OpenCv">
                   <p>OpenCv</p>
                 </li>
-                <li><img src="https://www.ambient-it.net/wp-content/uploads/2016/04/ml-logo.png" alt="Machine Learning">
-                  <p>Machine Learning</p>
+                <li><img src="https://miro.medium.com/max/1000/1*eJWbxmatlWJCNuhJqXB_dw.png" alt="Tensorflow">
+                  <p>Tensorflow / Machine Learning</p>
                   <p>(En cours d'apprentissage)</p>
+                </li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+                  <p>C++</p>
+                  <p>(Notions)</p>
                 </li>
                 <li><img src="https://sdtimes.com/wp-content/uploads/2018/08/logo-glyph.png" alt="Postman">
                   <p>Postman</p>
-                </li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png" alt="Git">
-                  <p>Git</p>
                 </li>
             </ul>
         </div>
         <div class="banner">
             <ul>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png" alt="Git">
+                  <p>Git</p>
+                </li>
                 <li><img src="https://www.gstatic.com/devrel-devsite/prod/v3069b08f6c9d146fa6a9c7f184b2836998ab5f12cefec1342a7bf6dca024aa94/firebase/images/touchicon-180.png" alt="Firebase">
                   <p>Firebase</p>
                 </li>
@@ -140,7 +144,7 @@
                 <li>Esprit d'équipe</li>
                 <li>Communiquation</li>
                 <li>Patience</li>
-                <li>Résolution de problèmes</li>
+                <li>Esprit logique</li>
                 <li>Créativité</li>
             </ul>
         </div>
@@ -276,6 +280,7 @@ iframe{
     }
     .slider ul li img{
         height: 300px;
+        box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.75);
     }
   
 </style>
