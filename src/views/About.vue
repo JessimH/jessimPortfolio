@@ -164,6 +164,7 @@
           <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1158/landscape/png" alt=""></li>
           <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1073/landscape/png" alt=""></li>
           <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1159/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/Certificate/1059-21372319/jpg" alt=""></li>
         </ul>
       </div>
     </section>
