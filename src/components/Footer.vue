@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <h4>made with ♥️ ( and a lot of redbull )</h4>
+        <h4>made with ♥️ ( and a lot of redbull  )</h4>
          <div>
                 <ul class="card__profileSocials">
                     <li><a target="_blank" href="https://github.com/JessimH"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" alt=""></a></li>
@@ -22,7 +22,7 @@ export default {
         background-color:yellow;
         height: fit-content;
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items:center;
         justify-content:center;
         width:100vw;
@@ -39,5 +39,8 @@ export default {
     }
     .card__profileSocials li img{
         max-width: 40px;
+        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>📞</text></svg>")
+            16 0,
+            auto;
     }
 </style>

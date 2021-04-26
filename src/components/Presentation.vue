@@ -17,6 +17,7 @@
             <article v-if="articles[1].switch">
                 <p class="note">* L'ensembles des termes sont définis, il suffit de cliquer dessus 😉</p>
                 <h4>En quelque mots mon boulot c'est de <span><a target="_blank" href="https://www.youtube.com/watch?v=9OBnvpzb560&ab_channel=br95120">résoudre des problèmes</a></span>, plus ou moins complexes selon les projets. Je réalise essentiellement des sites Web ainsi que applications Web et Mobiles. J'interviens aussi bien sur le <span><a target="_blank" href="https://www.kicklox.com/blog-talent/developpeur-front-end">Front-end</a></span> que le <span><a target="_blank" href="https://www.clementine.jobs/fiches-metiers/metiers-techniques-du-web/developpeur-back-end/#:~:text=Le%20D%C3%A9veloppeur%20Back%2DEnd%20est,Il%20travaille%20dans%20l'ombre.">Back-end</a></span>, dans le jargon on appelle ça un developpeur <span><a target="_blank" href="https://hackernoon.com/drafts/j41mp32tc.png">Fullstack</a></span> ! 😎</h4>
+
             </article>
         </div>
         <div class="section">
@@ -126,6 +127,9 @@ article h4 span a {
     text-decoration: none;
     color: #42b983;
     transition: 0.1s ease;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>")
+      16 0,
+    auto;
 }
 article h4 span a:hover {
     text-decoration: none;
@@ -158,7 +162,9 @@ img{
     max-width: fit-content;
     padding:10px;
     box-shadow: 9px 9px 0px 0px #2c3e50;
-    cursor: pointer;
+     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>")
+      16 0,
+    auto;
     transform: scale(1.04);
 }
 .section{
@@ -178,6 +184,11 @@ img{
 .quatre{
     background-color: #42b983;
     color: white;
+}
+a{
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>")
+      16 0,
+    auto;
 }
 
 .cinq{

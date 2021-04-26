@@ -5,6 +5,14 @@
         <h1>Web Skills 💻</h1>
         <div class="banner">
             <ul>
+              <li>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML5">
+                  <p>HTML5</p>
+                </li>
+                <li>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS3">
+                  <p>CSS3</p>
+                </li>
                 <li>
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript">
                   <p>Javascript</p>
@@ -17,21 +25,18 @@
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="VueJs">
                   <p>VueJs</p>
                 </li>
-                <li>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML5">
-                  <p>HTML5</p>
-                </li>
+                
                 <li>
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="Sass">
                   <p>Sass</p>
                 </li>
                 <li>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS3">
-                  <p>CSS3</p>
-                </li>
-                <li>
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png" alt="Bootstrap">
                   <p>Bootstrap</p>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/color/452/material-ui.png" alt="Material Ui">
+                  <p>Material Ui</p>
                 </li>
             </ul>
         </div>
@@ -125,13 +130,13 @@
                   <p>Figma</p>
                 </li>
                 <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png" alt="Adobe XD">
-                  <p>Adobe XD</p>
+                  <p>XD</p>
                 </li>
                 <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/616px-Adobe_Illustrator_CC_icon.svg.png" alt="Adobe Illustrator">
-                  <p>Adobe Illustrator</p>
+                  <p>Illustrator</p>
                 </li>
                 <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
-                  <p>Adobe Photoshop</p>
+                  <p>Photoshop</p>
                 </li>
             </ul>
         </div>
@@ -194,6 +199,16 @@ iframe{
   text-align: left;
   font-size: 2.3em;
 }
+.cv .front{
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💻</text></svg>")
+  16 0,
+  auto;
+}
+.cv .back{
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>📱</text></svg>")
+  16 0,
+  auto;
+}
 .cv .front h1{
   background-color:#1E31C9;
   box-shadow: 11px 11px 0px 0px #2c3e50;
@@ -217,6 +232,12 @@ iframe{
   color: #2c3e50;
 }
 
+.cv .design{
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎨</text></svg>")
+  16 0,
+  auto;
+}
+
 .cv .design h1{
   background-color:#42b983;
   box-shadow: 11px 11px 0px 0px #2c3e50;
@@ -224,7 +245,11 @@ iframe{
   max-width: fit-content;
   color: white;
 }
-
+.cv .devOps{
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👨🏻‍💻</text></svg>")
+  16 0,
+  auto;
+}
 .cv .autres h1{
   background-color:red;
   box-shadow: 11px 11px 0px 0px #2c3e50;
@@ -267,6 +292,9 @@ iframe{
         align-items: center;
         overflow-x: scroll;
         width: 100%;
+        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👨🏻‍🎓</text></svg>")
+        16 0,
+        auto;
     }
     .slider ul{
         padding: 0;
