@@ -1,5 +1,22 @@
 <template>
   <div class="about">
+    <div class="slider">
+        <ul>
+          <li><img src="https://www.sololearn.com/Certificate/1162-21372319/jpg" alt=""></li>
+          <li><img src="https://udemy-certificate.s3.amazonaws.com/image/UC-41255f3a-30be-4983-9c5d-7048db2c5597.jpg?v=1608898452000" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1024/landscape/png" alt=""></li>
+          <li><img src="https://i.ibb.co/ncq1KTV/Capture-d-e-cran-2021-04-25-a-17-53-37.png" alt=""></li>
+          <li><img src="https://www.sololearn.com/Certificate/1097-21372319/jpg" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1157/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1158/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1073/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1159/landscape/png" alt=""></li>
+          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1024/landscape/png" alt=""></li>
+        </ul>
+    </div>
+    <a target="_blanck" class="download" href="cv.pdf">
+      Télécharger mon CV !
+    </a>
     <section class="cv">
       <article class="front">
         <h1>Web Skills 💻</h1>
@@ -53,6 +70,9 @@
                 </li>
                 <li><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png" alt="MySQL">
                   <p>MySQL</p>
+                </li>
+                <li><img src="http://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png" alt="MySQL">
+                  <p>PostgreSQL</p>
                 </li>
                 <li><img src="https://www.ambient-it.net/wp-content/uploads/2018/07/mongodb-175.png" alt="Mongodb">
                   <p>Mongodb</p>
@@ -154,19 +174,6 @@
             </ul>
         </div>
       </article>
-      <div class="slider">
-        <ul>
-          <li><img src="https://www.sololearn.com/Certificate/1162-21372319/jpg" alt=""></li>
-          <li><img src="https://udemy-certificate.s3.amazonaws.com/image/UC-41255f3a-30be-4983-9c5d-7048db2c5597.jpg?v=1608898452000" alt=""></li>
-          <li><img src="https://i.ibb.co/ncq1KTV/Capture-d-e-cran-2021-04-25-a-17-53-37.png" alt=""></li>
-          <li><img src="https://www.sololearn.com/Certificate/1097-21372319/jpg" alt=""></li>
-          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1157/landscape/png" alt=""></li>
-          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1158/landscape/png" alt=""></li>
-          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1073/landscape/png" alt=""></li>
-          <li><img src="https://www.sololearn.com/certificates/course/en/21372319/1159/landscape/png" alt=""></li>
-          <li><img src="https://www.sololearn.com/Certificate/1059-21372319/jpg" alt=""></li>
-        </ul>
-      </div>
     </section>
     <Footer/>
   </div>
@@ -310,6 +317,22 @@ iframe{
     .slider ul li img{
         height: 300px;
         box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.75);
+    }
+
+    .download{
+      text-decoration: none;
+      background-color:#42b983;
+      font-weight: 500;
+      padding: 10px;
+      max-width: fit-content;
+      color: white;
+    }
+
+    .download:hover{
+      background-color:red;
+      cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>📲</text></svg>")
+      16 0,
+      auto;
     }
   
 </style>
